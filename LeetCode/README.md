@@ -6,8 +6,8 @@
 | Type   | Solved |
 |:------:|:------:|
 | Easy   | 14     |
-| Medium | 17     |
+| Medium | 18     |
 | Hard   | 3      |
-| Total  |**34**  |
+| Total  |**35**  |
 
 
