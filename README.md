@@ -10,7 +10,7 @@ Solutions to some of the coding problems from popular websites.
 
 ## Stats
 
-Number of problems solved: **103**
+Number of problems solved: **107**
 
 ### LeetCode
 
