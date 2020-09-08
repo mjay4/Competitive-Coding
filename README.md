@@ -10,7 +10,7 @@ Solutions to some of the coding problems from popular websites.
 
 ## Stats
 
-Number of problems solved: **109**
+Number of problems solved: **110**
 
 ### LeetCode
 
@@ -38,4 +38,4 @@ Number of problems solved: **109**
 * Important Function: 5
 * GFG: 1
 * Google: 0
-* Atcoder : 4
+* Atcoder : 5
