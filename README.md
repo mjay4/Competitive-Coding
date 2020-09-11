@@ -34,7 +34,7 @@ Number of problems solved: **114**
 ### Others
 
 * Facebook: 4
-* Codeforces: 24
+* Codeforces: 29
 * Important Function: 5
 * GFG: 1
 * Google: 0
