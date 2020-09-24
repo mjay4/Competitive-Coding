@@ -10,16 +10,16 @@ Solutions to some of the coding problems from popular websites.
 
 ## Stats
 
-Number of problems solved: **128**
+Number of problems solved: **131**
 
 ### LeetCode
 
 | Type   | Solved |
 |:------:|:------:|
 | Easy   | 16     |
-| Medium | 22     |
+| Medium | 24     |
 | Hard   | 6      |
-| Total  | 44     |
+| Total  | 46     |
 
 ### HackerRank
 
@@ -34,7 +34,7 @@ Number of problems solved: **128**
 ### Others
 
 * Facebook: 4
-* Codeforces: 34
+* Codeforces: 35
 * Important Function: 6
 * GFG: 1
 * Google: 0
