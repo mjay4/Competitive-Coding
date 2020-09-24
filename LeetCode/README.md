@@ -5,9 +5,9 @@
 
 | Type   | Solved |
 |:------:|:------:|
-| Easy   | 16     |
+| Easy   | 17     |
 | Medium | 24     |
 | Hard   | 6      |
-| Total  |**46**  |
+| Total  |**47**  |
 
 
