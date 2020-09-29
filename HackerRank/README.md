@@ -5,7 +5,7 @@
 
 | Type   | Solved |
 |:------:|:------:|
-| Easy 	 | 13     |
+| Easy 	 | 14     |
 | Medium | 16     |
 | Hard 	 | 2      |
-| Total	 | 31     |
+| Total	 | 32     |
