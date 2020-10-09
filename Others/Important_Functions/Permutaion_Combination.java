@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NPR_AND_NCR {
+public class Permutaion_Combination {
 	public static void main(String args[]) {
 		/* This program is used to create different 
 		permutation and combinations .
