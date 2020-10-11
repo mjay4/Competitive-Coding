@@ -1,6 +1,5 @@
 import java.util.*;
 
-// Find the gcd of Two numbers.
 public class pow {
     public static long mod = (long) 1_000_000_007;
     public static void main(String args[]) {
