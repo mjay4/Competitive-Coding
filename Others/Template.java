@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Template {
-	
+	public static boolean[] isPrime;
 	public static void main(String[] args) {
 		FastScanner sc=new FastScanner();
 		int T=sc.nextInt();
@@ -10,6 +10,20 @@ public class Template {
 			
 		}
 	}
+	
+	public static void fillPrime() {
+		int n = 1000007;
+		Arrays.fill(isPrime, true);
+		isPrime[0] = isPrime[1] = false;
+		for (int i = 2; i * i < n; i++) {
+			if (isPrime[i]) {
+				for (int j = i * i; j < n; j += i) {
+					isPrime[j] = false;
+				}
+			}
+		}
+	}
+	
 	static final Random random = new Random();
 	
 	static void sort(int[] a) {
