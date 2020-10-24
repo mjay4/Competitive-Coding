@@ -10,7 +10,7 @@ Solutions to some of the coding problems from popular websites.
 
 ## Stats
 
-Number of problems solved: **197**
+Number of problems solved: **200**
 
 ### LeetCode
 
@@ -34,7 +34,7 @@ Number of problems solved: **197**
 ### Others
 
 * Facebook: 4
-* Codeforces: 90
+* Codeforces: 93
 * Important Function: 6
 * GFG: 1
 * Google: 4
