@@ -11,6 +11,25 @@ public class Template {
 		}
 	}
 	
+	public static long npr(int n, int r) {
+		long ans = 1;
+		for(int i= 0 ;i<r; i++) {
+			ans*= (n-i);
+		}
+		return ans;
+	}
+	
+	public static double ncr(int n, int r) {
+		double ans = 1;
+		for(int i= 0 ;i<r; i++) {
+			ans*= (n-i);
+		}
+		for(int i= 0 ;i<r; i++) {
+			ans/=(i+1);
+		}
+		return ans;
+	}
+
 	public static void fillPrime() {
 		int n = 1000007;
 		Arrays.fill(isPrime, true);
