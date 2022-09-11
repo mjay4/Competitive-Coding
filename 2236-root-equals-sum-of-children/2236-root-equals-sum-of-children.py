@@ -6,7 +6,4 @@
 #         self.right = right
 class Solution:
     def checkTree(self, root: Optional[TreeNode]) -> bool:
-        if ( root.val == ( root.left.val + root.right.val ) ) :
-            return True
-        else :
-            return False
+        return  root.val == ( root.left.val + root.right.val ) 
