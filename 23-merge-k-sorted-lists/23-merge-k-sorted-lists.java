@@ -17,7 +17,7 @@ class Solution {
         for(ListNode list : lists) {
             while(list!=null) {
                 minHeap.add(list.val);
-                System.out.println("Loop 1: " + list.val);
+                //System.out.println("Loop 1: " + list.val);
                 list = list.next;
             }
         }
@@ -34,7 +34,7 @@ class Solution {
         while(!minHeap.isEmpty()) {
             int min = minHeap.poll();
             node.val = min;
-            System.out.println("Loop 2: " + node.val);
+            //System.out.println("Loop 2: " + node.val);
             if(minHeap.isEmpty()) break;
             node.next = new ListNode();
             node = node.next;
