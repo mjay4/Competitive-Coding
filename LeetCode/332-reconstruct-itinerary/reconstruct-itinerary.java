@@ -1,5 +1,6 @@
 class Solution {
 
+    // LinkedList because res.add at 0th index is O(1), instead of O(n) for ArrayList. 
     List<String> res = new LinkedList();
     Map<String, PriorityQueue<String>> map = new HashMap<>();
 
