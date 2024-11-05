@@ -1,6 +1,6 @@
 class Solution {
 
-    List<String> res = new ArrayList();
+    List<String> res = new LinkedList();
     Map<String, PriorityQueue<String>> map = new HashMap<>();
 
     public List<String> findItinerary(List<List<String>> tickets) {
