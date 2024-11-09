@@ -18,14 +18,18 @@ class Solution {
     }
 
     public Node flip(Node curr, Node newParent) {
+        // Placeholder for oldParent. 
         Node oldParent = curr.parent;
         curr.parent = newParent;
 
+        // Rest the curr if it is pointing to newParent. 
         if (curr.left == newParent) curr.left = null;
         if (curr.right == newParent) curr.right = null;
 
+        // If we have reached the root, we should return. 
         if (curr == startingNode) return curr;
 
+        // Left should go to right and then left would become the flip of oldParent and curr. 
         if (curr.left != null) curr.right = curr.left;
         curr.left = flip(oldParent,curr);
 
